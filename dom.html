@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="tittel">DOM</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <h1 id="overskrift">Interaktiv Nettside</h1>
+    <div id="innhold">
+        <p id="utskiftbarTekst">Dette er noe tekst.</p>
+        <input type="text" id="tekstInput" placeholder="Skriv inn tekst">
+        <button onclick="endreTekst()">Endre Tekst</button>
+        <br>
+        <button onclick="endreBakgrunnsfarge()">Endre Bakgrunnsfarge</button>
+    </div>
+    <br>
+    <img src="katt.png" alt="Dette er bilde av ei katt" id="dyrebilde">
+    <br>
+    <button onclick="mindreBilde()">Gjør bildet mindre</button>
+    <button onclick="storreBilde()">Gjør bildet større</button>
+    <br>
+    <button onclick="byttBilde()">Bytt bilde</button>
+</body>
+</html>
+<footer>
+    <script src="dom.js"></script>
+</footer>
+</html>
